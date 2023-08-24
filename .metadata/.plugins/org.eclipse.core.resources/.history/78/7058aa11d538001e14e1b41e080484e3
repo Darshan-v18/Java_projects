@@ -1,0 +1,9 @@
+package Hashmap;
+
+public class HashMap {
+
+	public static void main(String[] args) {
+		Hashmap<String, String> dictinonary = new Hashmap<>();
+	}
+
+}

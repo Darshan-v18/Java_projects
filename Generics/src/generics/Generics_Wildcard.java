@@ -1,0 +1,48 @@
+package generics;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Generics_Wildcard {
+
+	public static void main(String[] args) {
+		Object myObject = new Object();
+		String myvar = "hello";
+		myObject = myvar;
+		
+		Employee emp =new Employee();
+		
+		Accountant acc = new Accountant();
+		emp = acc;
+		
+		ArrayList<Employee>  employees = new ArrayList<>();
+		employees.add(new Employee());
+		ArrayList<Accountant> accountants = new ArrayList<Accountant>();
+		accountants.add(new Accountant());
+//		employees=accountants;
+		
+		ArrayList<?> employee2 = new ArrayList<>();
+		ArrayList<String> accountants2 = new ArrayList<String>();
+		employee2 = accountants2;
+		
+		
+		ArrayList<? extends Employee> Employee3=new ArrayList<Employee>();
+		ArrayList<Accountant> accountants3 = new ArrayList<>();
+		Employee3=accountants3;
+		
+		ArrayList<? super Employee> employee4 = new ArrayList<>();
+		ArrayList<Object> accountants4 = new ArrayList<>();
+		employee4=accountants4;
+		
+		makeEmployeeWork(accountants);
+		
+	}
+	
+	
+	public static void makeEmployeeWork(List<? extends Employee> employees) {
+		for(Accountant emp:(ArrayList<Accountant>) employees) {
+			emp.work();
+		}
+	}
+
+}

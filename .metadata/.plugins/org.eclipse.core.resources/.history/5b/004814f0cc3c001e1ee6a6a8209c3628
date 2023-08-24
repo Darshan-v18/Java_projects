@@ -1,0 +1,8 @@
+package aggregators;
+
+public class AggregatorProcessor<T extends Aggregator> {
+	T aggregator;
+	String file;
+	
+	
+}

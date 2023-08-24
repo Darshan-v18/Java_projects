@@ -1,0 +1,19 @@
+package aggregators;
+
+public class AggregatorProcessor<T extends Aggregator> {
+	T aggregator;
+	String file;
+	
+	
+	public AggregatorProcessor(T aggregator, String file) {
+		super();
+		this.aggregator = aggregator;
+		this.file = file;
+	}
+	
+	
+	public double run
+	
+	
+	
+}

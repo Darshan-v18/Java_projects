@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java8project.MyUtils"/>
+    <fullyQualifiedTypeName name="someotherpackage.ExampleClass"/>
+    <fullyQualifiedTypeName name="prerequisties_OOP.Human"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="generics.Containers"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="generics.Employee"/>
+    <fullyQualifiedTypeName name="generics.Generics_Wildcard"/>
+    <fullyQualifiedTypeName name="generics.Accountant"/>
+    <fullyQualifiedTypeName name="aggregators.AggregatorProcessor"/>
+    <fullyQualifiedTypeName name="aggregators.Aggregator"/>
+    <fullyQualifiedTypeName name="fileprocessors.StockFileReader"/>
+    <fullyQualifiedTypeName name="java.lang.Readable"/>
+    <fullyQualifiedTypeName name="java.lang.SecurityException"/>
+    <fullyQualifiedTypeName name="thread.Sequence"/>
+    <fullyQualifiedTypeName name="thread.Worker"/>
+    <fullyQualifiedTypeName name="Threading.InventoryManager"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="ThreadPool_ExecutorFramework.MessageProcessor"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+</qualifiedTypeNameHistroy>

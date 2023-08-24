@@ -1,0 +1,11 @@
+package generics;
+
+public class Generics_Wildcard {
+
+	public static void main(String[] args) {
+		Object myObject = new Object();
+		String myvar = "hello";
+		myObject = myvar;
+	}
+
+}

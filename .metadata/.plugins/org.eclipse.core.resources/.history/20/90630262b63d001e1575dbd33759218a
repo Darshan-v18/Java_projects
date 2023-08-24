@@ -1,0 +1,17 @@
+package Threading;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class InventoryManager {
+	List<Product> soldProductsList=new ArrayList<Product>();
+	List<Product> purchaseProductList=new ArrayList<Product>();
+	
+	public void populateSoldProduct() {
+		for(int i=0;i<1000;i++) {
+			Product prod=new Product(i,"test_product_"+i);
+			soldProductsList.add(prod);
+			System.out.println("Added "+ prod);
+		}
+	} 
+}

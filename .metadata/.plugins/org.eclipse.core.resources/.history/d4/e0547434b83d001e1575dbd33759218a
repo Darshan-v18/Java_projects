@@ -1,0 +1,26 @@
+package Client;
+
+import Threading.InventoryManager;
+
+public class Application {
+
+	public static void main(String[] args) {
+		InventoryManager manager = new InventoryManager();
+		Thread inventoryTask = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				manager.populateSoldProduct();				
+			}
+		});
+		
+		Thread displayTask = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				manager.displaySoldProducts();				
+			}
+		});
+	}
+
+}
